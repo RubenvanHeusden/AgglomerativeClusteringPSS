@@ -38,6 +38,8 @@ This repository contains the code to run the experiments from the paper, with th
 
 **Experiments**
 - This folder contains three notebooks. `Experiments.ipynb`, which contains the main experimental results, `DataExploration.ipynb` which contains some basic analysis on the dataset, and `ImageModelTraining.ipynb`, which contains the code for training the VGG16 model. <br>
+
+
 **utils**
 - utils contains two files, with the `metricutils.py` file implementing the metrics used in this research, and `utils.py` implementing various helper functions used for clustering.
 **Data**
