@@ -8,7 +8,7 @@ To run the experiments presented in this research, we recommend using `Aconda` t
 
 Below are the steps for installing the required dependencies:
 
-- Step 1: Clone /Download the repository to your local computer, for example by using the command below: `https://github.com/RubenvanHeusden/SIGIRAgglomerativeClusteringPSS.git`
+- Step 1: Clone /Download the repository to your local computer.
 
 - Step 2 :Unzip the directory if needed, and change into the directory in the terminal, for example `cd path/to/folder/ `
 
@@ -40,8 +40,8 @@ This repository contains the code to run the experiments from the paper, with th
 - This folder contains three notebooks. `Experiments.ipynb`, which contains the main experimental results, `DataExploration.ipynb` which contains some basic analysis on the dataset, and `ImageModelTraining.ipynb`, which contains the code for training the VGG16 model. <br>
 **utils**
 - utils contains two files, with the `metricutils.py` file implementing the metrics used in this research, and `utils.py` implementing various helper functions used for clustering.
-
 **Data**
+
 
 ## Downloading the dataset
 
