@@ -1,4 +1,4 @@
-# SIGIRAgglomerativeClusteringPSS
+# SIGIR 2023 Short Paper: Agglomerative Clustering for Page Stream Segmentation
 
 This repository contains the code and link to the data used in the paper "Using Deep Learned Vector Representations for Page Stream Segmentation by Agglomerative Clustering", submitted to the Short Paper Track of SIGIR 2023.
 
