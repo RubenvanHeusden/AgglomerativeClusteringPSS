@@ -8,32 +8,29 @@ To run the experiments presented in this research, we recommend using `Aconda` t
 
 Below are the steps for installing the required dependencies:
 
-- Step 1: Clone /Download the repository to your local computer, for example by using the command below: ``
+- Step 1: Clone /Download the repository to your local computer, for example by using the command below: `https://github.com/RubenvanHeusden/SIGIRAgglomerativeClusteringPSS.git`
 
-- Step 2 :Unzip the directory if needed, and change into the directory in the terminal, for example `cd path/to/folder/elm `
+- Step 2 :Unzip the directory if needed, and change into the directory in the terminal, for example `cd path/to/folder/ `
 
 - Step 3: If you are using conda, you can use the command below to create a new conda environment with all the requirements you need to run the code in this repository.
 
 `conda env create -f environment.yml`
 
-This will create an environment called 'ELM_IRJ_paper_env', which can be used to run the experiments in this notebook. Note that this environment comes with `jupyter lab` already installed, but without a link to the evironment, so you can't select it in Jupyter Lab yet.
+
+This will create an environment called 'PSS_SIGIR_env', which can be used to run the experiments in this notebook. Note that this environment comes with `jupyter lab` already installed, but without a link to the evironment, so you can't select it in Jupyter Lab yet.
 To do this, first activate the environment:
 
-`conda activate ELM_IRJ_paper_env`
+`conda activate PSS_SIGIR_env`
 
 Then run the following command:
 
-`ipython kernel install --name "ELM_IRJ_experiments_kernel" --user`
+`ipython kernel install --name `SIGIR_PSS_experiments_kernel" --user`
 
 Now the kernel is linked to Jupyter Lab, and you can select it as the kernal to run the notebooks in Jupyter Lab. to start Jupyter Lab, make sure the environment is activated and type `jupyter lab` in the terminal.
 
+If you want to install via `pip` please run the command below: 'pip install -r requirements.txt'
 
-1. Installation using Anaconda
-  - To install using Anaconda, simply run `ADD COMMAND`
 
-2. Installation using pip
-  - To install using pip, simply run `ADD COMMAND`
-  
   
 ## Contents
 
