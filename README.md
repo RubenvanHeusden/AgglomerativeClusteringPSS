@@ -24,7 +24,7 @@ To do this, first activate the environment:
 
 Then run the following command:
 
-`ipython kernel install --name `SIGIR_PSS_experiments_kernel" --user`
+`ipython kernel install --name "SIGIR_PSS_experiments_kernel" --user`
 
 Now the kernel is linked to Jupyter Lab, and you can select it as the kernal to run the notebooks in Jupyter Lab. to start Jupyter Lab, make sure the environment is activated and type `jupyter lab` in the terminal.
 
@@ -34,6 +34,15 @@ If you want to install via `pip` please run the command below: 'pip install -r r
   
 ## Contents
 
-## Dataset
+This repository contains the code to run the experiments from the paper, with the following folders in it. <br>
+
+**Experiments**
+- This folder contains three notebooks. `Experiments.ipynb`, which contains the main experimental results, `DataExploration.ipynb` which contains some basic analysis on the dataset, and `ImageModelTraining.ipynb`, which contains the code for training the VGG16 model. <br>
+**utils**
+- utils contains two files, with the `metricutils.py` file implementing the metrics used in this research, and `utils.py` implementing various helper functions used for clustering.
+
+**Data**
+
+## Downloading the dataset
 
 The dataset used in this research is available through Zenodo () as an anonymous data entry. The instructions for downloading the data are pretty straightforward, but we have also included a script in this repository that will allow you to automatically download the data as part of the set up of the repository.
