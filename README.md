@@ -13,4 +13,8 @@ To run the experiments presented in this research, we recommend using `Aconda` t
   - To install using pip, simply run `ADD COMMAND`
   
   
- ## Contents
+## Contents
+
+## Dataset
+
+The dataset used in this research is available through Zenodo () as an anonymous data entry. The instructions for downloading the data are pretty straightforward, but we have also included a script in this repository that will allow you to automatically download the data as part of the set up of the repository.
