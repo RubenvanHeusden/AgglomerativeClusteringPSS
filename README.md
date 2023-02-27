@@ -47,7 +47,7 @@ This repository contains the code to run the experiments from the paper, with th
 
 The data folder contains the resources required to run the experiments in this research. The folder contains the following:
   - dataframes
-    Folder with the dataframes for train and test data containing the text and labels of the isntances in the dataset
+    - Folder with the dataframes for train and test data containing the text and labels of the isntances in the dataset
   - images
     - Folder containing the images of the pages in the dataset in the format required by the VGG16 model
   - trained_VGG16_model
