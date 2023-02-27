@@ -60,4 +60,4 @@ The data folder contains the resources required to run the experiments in this r
 
 ## Downloading the dataset
 
-The dataset used in this research is available through Zenodo (https://zenodo.org/record/7683111) as an anonymous data entry. The instructions for downloading the data are pretty straightforward you simply have to unzip the file and put it in the main folder of the repository, but we have also included a script in this repository that will allow you to automatically download the data as part of the set up of the repository.
+The dataset used in this research is available through Zenodo (https://zenodo.org/record/7683111) as an anonymous data entry. The instructions for downloading the data are pretty straightforward you simply have to unzip the file and put it in the main folder of the repository, but we have also included a script in this repository that will allow you to automatically download the data as part of the set up of the repository. You can simply run this with `bash download.sh`
