@@ -42,9 +42,22 @@ This repository contains the code to run the experiments from the paper, with th
 
 **utils**
 - utils contains two files, with the `metricutils.py` file implementing the metrics used in this research, and `utils.py` implementing various helper functions used for clustering.
-**Data**
+
+**Data** 
+
+The data folder contains the resources required to run the experiments in this research. The folder contains the following:
+  - dataframes
+    Folder with the dataframes for train and test data containing the text and labels of the isntances in the dataset
+  - images
+    - Folder containing the images of the pages in the dataset in the format required by the VGG16 model
+  - trained_VGG16_model
+    - assets for the trained VGG16 model used to perform the predictions of the binary classification baseline.
+  - finetuned_vectors.npy, pretrained_vectors.npy
+    - Image vectors of the train and test portions of the dataset, extracted from the pretrained and finetuned VGG16 model
+  - gold_standard.json
+    - JSON file containing the binary label for each page in the dataset
 
 
 ## Downloading the dataset
 
-The dataset used in this research is available through Zenodo (https://zenodo.org/record/7683111) as an anonymous data entry. The instructions for downloading the data are pretty straightforward, but we have also included a script in this repository that will allow you to automatically download the data as part of the set up of the repository.
+The dataset used in this research is available through Zenodo (https://zenodo.org/record/7683111) as an anonymous data entry. The instructions for downloading the data are pretty straightforward you simply have to unzip the file and put it in the main folder of the repository, but we have also included a script in this repository that will allow you to automatically download the data as part of the set up of the repository.
