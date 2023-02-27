@@ -47,4 +47,4 @@ This repository contains the code to run the experiments from the paper, with th
 
 ## Downloading the dataset
 
-The dataset used in this research is available through Zenodo () as an anonymous data entry. The instructions for downloading the data are pretty straightforward, but we have also included a script in this repository that will allow you to automatically download the data as part of the set up of the repository.
+The dataset used in this research is available through Zenodo (https://zenodo.org/record/7683111) as an anonymous data entry. The instructions for downloading the data are pretty straightforward, but we have also included a script in this repository that will allow you to automatically download the data as part of the set up of the repository.
